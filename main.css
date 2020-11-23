@@ -25,3 +25,25 @@ html, body {
 }
 
 .spacer{height:30px;}
+
+#gameTitle{
+ margin-top:100px;
+ text-align:center;
+ font-size:40px;
+ color:#fff;}
+
+.button{font-size:17px;
+ width:100px;
+ margin:auto;
+ margin-top:20px;
+ cursor:pointer;
+ border:solid 1px white;
+ border-radius:4px;
+ text-align:center;
+ color:#fff;}
+
+.button:hover{
+ background-color:#6AB0FD;}
+
+#replay{
+ margin-left:0px;}

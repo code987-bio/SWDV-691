@@ -47,3 +47,62 @@ html, body {
 
 #replay{
  margin-left:0px;}
+
+#wordHolder{
+ margin-top:50px;
+ margin-left:150px;
+}
+ 
+#clueHolder{
+ margin-top:130px;
+ margin-left:150px;
+}
+ 
+#guesses{
+ margin-top:20px;
+ margin-left:150px;
+}
+ 
+#pixHolder{
+ margin-left:30px;
+ width:75px;
+ float:left;
+ overflow:hidden;
+}
+ 
+#pixHolder img{
+ position:relative;}
+ 
+#feedback{
+ margin-top:20px;
+ margin-left:150px;
+ font-size:34px;
+ color:#fff;
+}
+ 
+.tile{
+ height:40px;
+ width:40px;
+ float:left;
+ margin-right:10px;
+ background-color:white;
+ text-align:center;
+ font-size:24px;
+ color:#333;
+ padding-top:5px;
+}
+ 
+#finalMessage{
+ text-align:center;
+ font-size:40px;
+ color:#fff;
+ width:90%;
+ margin:auto;
+ margin-top:100px;
+}
+ 
+#dummy{
+ position:absolute;
+ left:-200px;
+ top:0px;
+}

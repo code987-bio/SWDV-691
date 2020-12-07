@@ -83,4 +83,4 @@ function handleKeyUp(event) {
 			else{wrongAnswer(input);}
 		}//if
 	}//if
-}//handlekeyup
+}//handlekeyup]]

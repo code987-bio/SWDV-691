@@ -1,0 +1,52 @@
+{"wordlist":[
+  
+	{
+		"word":"Tiger",
+		"clue":"an animal"
+	},
+	 
+	{
+		"word":"Giraffe",
+		"clue":"an animal that lives in Africa"
+	},
+	{
+		"word":"London Bridge",
+		"clue":"It is surrounded by water"
+	},
+	{
+		"word":"Swiss Army Knife",
+		"clue":"A type of tool"
+	},
+	{
+		"word":"Skyscraper",
+		"clue":"a type of building"
+	},
+	{
+		"word":"Enchiladas",
+		"clue":"A type of Mexican food"
+	},    
+    {
+		"word":"Diamond",
+		"clue":"A part of a ring"
+	},
+	{
+		"word":"Hola Como estas?",
+		"clue":"A Spanish greeting"
+	},
+	{
+		"word":"Buena Suerte",
+		"clue":"A Spanish way of wishing somebody well"
+	},
+	{
+		"word":"Bugs Bunny",
+		"clue":"A Looney Toons character on Space Jam"
+	},
+	{
+		"word":"London Broil",
+		"clue":"A style of cooked meat"
+	}
+	
+]
+}
+
+ 

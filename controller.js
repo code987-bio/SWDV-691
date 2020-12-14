@@ -84,3 +84,47 @@ function handleKeyUp(event) {
 		}//if
 	}//if
 }//handlekeyup]]
+
+function checkAnswer(){
+	var currentAnswer="";	
+	for(i=0;i<currentWord.length;i++){
+		currentAnswer+=($('#t'+i).text());
+	}		
+	if(currentAnswer==currentWord){
+		victoryMessage();
+	};
+}//checkanswer
+		
+function wrongAnswer(a){
+	wrongAnswerCount++;
+	var pos=(wrongAnswerCount*-75) +"px"
+	$('#guesses').append("  "+a);
+	$('#hangman').css("left",pos);
+	if(wrongAnswerCount==6){
+		defeatMessage();}
+}//wronganswer
+
+function victoryMessage(){
+	$(document).off("keyup", handleKeyUp);
+	$('#feedback').append("CORRECT!<br><br><div id='replay' class='button'>CONTINUE</div>"); 	
+    $('#replay').on("click",function (){ 		
+    	if(questionBank.length>0){ 			
+    		gameScreen()} 		
+    		else{finalPage()} 	
+    }); 
+}//victory 		 
+    
+function defeatMessage(){ 	
+    $(document).off("keyup", handleKeyUp); 	
+    $('#feedback').append("You're Dead!<br>(answer= "+ currentWord +")<div id='replay' class='button'>CONTINUE</div>"); 	
+    $('#replay').on("click",function (){ 		
+    	if(questionBank.length>0){ 			
+    	gameScreen()} 		
+    	else{finalPage()} 	
+	}); 
+}//defeat 
+    
+function finalPage(){ 	
+    $('#gameContent').empty(); 	
+    $('#gameContent').append('<div id="finalMessage">You have finished all the words in the game!</div>');
+}//finalpage
